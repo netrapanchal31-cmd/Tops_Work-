@@ -13,7 +13,6 @@ def load_data():
         data = file.read()
 
         file.close()
-#file text → python
 
         if data == "":
             return {}
