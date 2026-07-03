@@ -3,7 +3,6 @@ import json
 
 FILE_NAME = "stock.txt"
 
-#Reads data from stock.txt for that use load_data
 
 def load_data():
 
@@ -24,7 +23,6 @@ def load_data():
     except:
         return {}
 
-#Saves latest fruits into stock.txt and it remove content and write new one
 
 def save_data(data):
 
@@ -34,7 +32,6 @@ def save_data(data):
 
     file.close()
 
-#Stores activity history into log.txt it will handle the old data
 
 def write_log(message):
 
